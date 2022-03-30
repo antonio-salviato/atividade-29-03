@@ -120,13 +120,16 @@ li a:checked {
 .redes_icones a {
   text-decoration: none;
 }
+.lista {
+  list-style-type: upper-alpha;
+  margin-top: 6em;
+  margin-left: 1.5em;
+  font-size: 2em;
+  font-weight: bold;
+}
 
 .lista li {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 40px;
-  text-align: left;
-  display: block;
+  margin: 5px;
 }
 
 .div-texto-conhecimentos {
