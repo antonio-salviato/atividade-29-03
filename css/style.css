@@ -122,7 +122,6 @@ li a:checked {
 }
 .lista {
   list-style-type: upper-alpha;
-  margin-top: 6em;
   margin-left: 1.5em;
   font-size: 2em;
   font-weight: bold;
@@ -134,12 +133,15 @@ li a:checked {
 
 .div-texto-conhecimentos {
   width: 100%;
-  margin-top: 250px;
+  margin-top: 10em;
   padding-left: 10px;
 }
 
-.div-texto-conhecimentos p {
-  font-size: 20px;
+.div-texto-objetivos p {
+  width: 100%;
+  margin-top: 200px;
+  padding-left: 10px;
+  font-size: 25px;
 }
 
 #title2 {
