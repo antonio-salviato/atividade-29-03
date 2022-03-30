@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Rubik:wght@300&display=swap");
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+li a {
+  display: inline-flex;
+  padding: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 5px;
+}
+
+li a:hover {
+  color: blue;
+}
+
+li a:visited {
+  color: black;
+}
+li a:checked {
+  color: purple;
+}
+
+.principal {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: rgb(199, 196, 196);
+}
+
+.lateral_esquerda {
+  height: auto;
+  width: 400px;
+  display: block;
+  background-color: rgb(147, 147, 238);
+}
+
+.title1 {
+  font-size: 62px;
+  padding-left: 20px;
+  color: darkblue;
+  font-weight: bold;
+}
+
+.texto_end,
+#email {
+  padding-left: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foto {
+  width: 200px;
+  border-radius: 100px;
+  border: 6px solid darkblue;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+}
+
+.lateral_esquerda {
+  float: left;
+  margin-left: 0px;
+}
+
+.texto_sobre {
+  margin-top: 50px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.div-texto-principal {
+  width: 100%;
+  height: 90px;
+  margin-top: 200px;
+}
+
+.icones {
+  border: 1px solid;
+  position: absolute;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  width: 100%;
+}
+.icone_p {
+  height: 20px;
+  width: 20px;
+}
+
+.redes_icones {
+  margin: 50px;
+  width: 600px;
+  padding: 5px;
+}
+
+.redes_icones img {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
+.redes_icones a {
+  text-decoration: none;
+}
+
+.lista li {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  display: block;
+}
+
+.div-texto-conhecimentos {
+  width: 100%;
+  margin-top: 250px;
+  padding-left: 10px;
+}
+
+.div-texto-conhecimentos p {
+  font-size: 20px;
+}
+
+#title2 {
+  color: rgb(199, 74, 16);
+}
+
+#email {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1px;
+  color: rgb(199, 74, 16);
+}
